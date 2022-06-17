@@ -1,0 +1,65 @@
+/*********************************************************************
+ *********************************************************************
+---WIDTH---
+
+--DESKTOP: 
+- 1440PX
+--MOBILE: 
+- 375PX
+
+---COLORS---
+
+--PRIMARY
+
+- Dark cyan: hsl(185, 75%, 39%)
+- Very dark desaturated blue: hsl(229, 23%, 23%)
+- Dark grayish blue: hsl(227, 10%, 46%)
+
+--NEUTRAL---
+
+- Dark gray: hsl(0, 0%, 59%)
+
+
+---FONTS---
+
+--FONT-SIZE:
+
+- Font size (name and stats): 18px
+
+
+***  Percentage of user's browser font-size setting ***
+  10PX / 16PX (DEFAULT CLINT'S VALUE) * 100 = 62.5%
+  GENERAL FONT-SIZE: 62.5% === 10PX 
+-BODY: 15px
+
+--FONT-FAMILY:
+-Kumbh Sans: 'Inter', sans-serif;
+-LEXEND DECA: Lexend Deca', sans-serif;
+
+--FONT-WEIGHT: 
+-DEFAULT: 400
+-MEDIUM: NONE
+-BOLD: 700
+
+
+
+**********************************************************************
+**********************************************************************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* more details very first cheat */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+}
