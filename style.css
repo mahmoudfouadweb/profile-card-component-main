@@ -65,7 +65,7 @@ body {
   background-color: #19a2ae;
   background-image: url(./images/bg-pattern-top.svg),
     url(./images/bg-pattern-bottom.svg);
-  background-position: top 600px left 600px, bottom -600px right -600px;
+  background-position: top -50rem left -10px, bottom -50rem right;
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -177,4 +177,14 @@ body {
   letter-spacing: 1.5px;
   font-size: 1rem;
   color: #aaa;
+}
+
+/**************************/
+/* Media Query */
+/**************************/
+
+@media only screen and (max-width: 375px) {
+  .section {
+    padding: 0 2.4rem;
+  }
 }
